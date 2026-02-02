@@ -8,8 +8,10 @@
 |double     |avgPrice     |
 |double     |distance     |
 |String     |hoursOpen    |
-|?          |menuItems    |
 <!-- Menu Items (Type) -->
-- reasons not to use bullet points
-  - boring
+
  
+```java
+public static void main(String() args) {
+}
+```

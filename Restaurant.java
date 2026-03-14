@@ -67,17 +67,17 @@ public class Restaurant {
         return avgPrice;
     }
 
-    public void setAvgPrice(double avgPrice) {
+    public void setAvgPrice(double  avgPrice) {
         this.avgPrice = avgPrice;
     }
 
     // How it will be called
     public String toString() {
-        return "Restaurant Name:\t" + name +
-                "\nWait time:\t\t\t" + waitTime + " minutes" +
-                "\nRating:\t\t\t\t" + rating + " stars" +
+        return "\nRestaurant Name:\t" + name +
+                "\nWait time:\t\t\t" + waitTime + " minute(s)" +
+                "\nRating:\t\t\t\t" + rating + " star(s)" +
                 "\nAverage Price:\t\t$" + avgPrice +
-                "\nDistance:\t\t\t" + distance + " miles away" +
+                "\nDistance:\t\t\t" + distance + " mile(s) away" +
                 "\nHours of Operation: " + hoursOpen;
     }
 }
